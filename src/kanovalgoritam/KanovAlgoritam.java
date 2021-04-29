@@ -9,6 +9,10 @@ class Graph {
 
     List<Integer> adj[]; 
    
+    public String stampaj(){
+        return "Osma gimanazija";
+    }
+    
     public Graph(int vertices) 
     { 
         this.V = vertices; 
